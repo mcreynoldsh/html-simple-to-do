@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center bg-primary rounded p-3 m-3 w-50">
+            <ul id="list" class="list-group">
+                <li class="list-group-item">
+                  <input id="first-box" class="form-check-input me-1" onchange="myFunction(this)" type="checkbox" value="" aria-label="...">
+                  <label>First checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1"onchange="myFunction(this)"  type="checkbox" value="" aria-label="...">
+                  <label>Second checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" onchange="myFunction(this)" type="checkbox">
+                  <label>Third checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" onchange="myFunction(this)" type="checkbox" value="" aria-label="...">
+                  <label>Fourth checkbox</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" onchange="myFunction(this)" type="checkbox" value="" aria-label="...">
+                  <label>Fifth checkbox</label>
+                </li>
+              </ul> 
+        </div>
+        <div class="row">
+            <div class="col">
+                <form onsubmit="handleFormSubmit(event)">
+                    <input class="" id="input-number" name="itemInput" placeholder="Add Item To List"/>
+                    <br />
+                    <button type=""submit>Submit</button>
+                </form>
+            </div>    
+        </div>    
+    </div>
+</body>
+</html>

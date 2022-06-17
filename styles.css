@@ -1,0 +1,6 @@
+.strike-through{
+    text-decoration: line-through;
+}
+.list-group list-group-item:after{
+    text-decoration: line-through;
+}
